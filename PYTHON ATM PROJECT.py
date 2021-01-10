@@ -60,7 +60,7 @@ while chances >= 0:
         print('الرقم السري المخل غير صحيح')
         chances = chances - 1
         if chances == 0:
-            print('\n'' لقد إستنفذت عدد مرات المحاولة ')
+            print('\n لقد إستنفذت عدد مرات المحاولة ')
             break
 
 
