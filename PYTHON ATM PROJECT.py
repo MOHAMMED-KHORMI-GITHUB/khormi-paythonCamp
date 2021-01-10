@@ -14,10 +14,10 @@ while chances >= 0:
     if pin == (1234):
         print('التأكد من صحة الرقم السري للبطاقة\n')
         while restart not in ('n','NO','no','N'):
-            print('اضغط 1- للإستعلام عن الرصيد\n')
-            print('اضغط 2- للسحب\n')
-            print('اضغط 3- للمدفوعات\n')
-            print('اضغط 4- لارجاع البطاقة\n')
+            print('اضغط 1- للإستعلام عن الرصيد')
+            print('اضغط 2- للسحب')
+            print('اضغط 3- للمدفوعات')
+            print('اضغط 4- لارجاع البطاقة)
             option = int(input('اختر الخدمة المطلوبة ؟'))
             if option == 1:
                 print('رصيدك هو  ريال سعودي',balance,'\n')
@@ -27,7 +27,7 @@ while chances >= 0:
                     break
             elif option == 2:
                 option2 = ('نعم')
-                withdrawl = float(input('المبلغ المطلوب للسحب? \n100 /200 /500 /1000/  5000 \n أو 1 لاختيار مبلغ آخر  : '))
+                withdrawl = float(input('المبلغ المطلوب للسحب? \n''100 /200 /500 /1000/  5000 \n أو 1 لاختيار مبلغ آخر  : '))
                 if withdrawl in [100, 200, 500, 1000, 5000]:
                     balance = balance - withdrawl
                     print ('رصيدك الحالي هو \n',balance)
@@ -60,7 +60,7 @@ while chances >= 0:
         print('الرقم السري المخل غير صحيح')
         chances = chances - 1
         if chances == 0:
-            print('\n لقد إستنفذت عدد مرات المحاولة ')
+            print('\n'' لقد إستنفذت عدد مرات المحاولة ')
             break
 
 
