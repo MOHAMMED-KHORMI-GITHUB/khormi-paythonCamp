@@ -1,9 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
+'''
 
-# In[ ]:
+Welcome to mohammed khormi GDB Online.
 
 
+'''
 import math
 print('مرحبا بكم في خدمة الصراف الآلي في بنك معسكر البايثون')
 restart=('نعم')
@@ -16,8 +16,8 @@ while chances >= 0:
         while restart not in ('n','NO','no','N'):
             print('اضغط 1- للإستعلام عن الرصيد')
             print('اضغط 2- للسحب')
-            print('اضغط 3- للمدفوعات')
-            print('اضغط 4- لارجاع البطاقة)
+            print ('اضغط 3- للمدفوعات')
+            print('اضغط 4- للعودة للقائمة السابقة')
             option = int(input('اختر الخدمة المطلوبة ؟'))
             if option == 1:
                 print('رصيدك هو  ريال سعودي',balance,'\n')
@@ -64,8 +64,8 @@ while chances >= 0:
             break
 
 
-# In[ ]:
 
 
 
+#© 2021 GitHub@محمد خرمي , Inc.
 
